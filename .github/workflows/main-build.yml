@@ -1,10 +1,10 @@
 name: Build-Main
 
 on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'code/flyway-example/**'
+  #push:
+    #branches: [ "main" ]
+    #paths:
+      #- 'code/flyway-example/**'
 
   workflow_dispatch:
     inputs:
